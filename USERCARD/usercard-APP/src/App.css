@@ -1,0 +1,106 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: hsl(180, 3%, 69%);
+  font-family:Arial, Helvetica, sans-serif;
+
+}
+#root{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+  min-height:100vh;
+  margin: 0px;
+
+}
+h3{
+  margin:10px 0;
+}
+h6{
+  margin:5px 0;
+  text-transform:uppercase;
+}
+p{
+  font-size: 14px;
+  line-height: 21px;
+  text-align:center;  
+
+}
+.cardcontainer{
+  /* background-color: hsl(240, 33%, 21%); */
+  background-color: hsl(60, 3%, 26%);
+  border-radius:10px;
+  box-shadow:0px 10px 20px -10px  hsl(240, 33%, 11%);
+  color:hsl(0, 3%, 75%);
+  padding-top:30px;
+  width:350px;
+  max-width:100%;
+  text-align:center;
+  position: relative;
+}
+.pro{
+  color:hsl(240, 33%, 41%);
+  background: red;
+  border-radius:3px;
+  font-size:14px;
+  font-weight:bold;
+  padding:3px 7px;
+  position: absolute;
+  top: 30px;
+  left:30px;
+}
+.online{
+  background-color:hsl(120, 76%, 55%) ;
+}
+.offline{
+  background-color:hsl(60, 75%, 69%);
+}
+.img{
+  /* border: 2px solid hsl(337, 42%, 83%); */
+  border: 2px solid hsl(0, 1%, 73%);
+  border-radius:80px;
+  padding:3px;
+}
+.buttons{
+  display:flex;
+  justify-content: center;
+  gap:20px;
+}
+button.primary{
+  background-color: hsl(240, 94%, 65%);
+  border:1px solid hsl(240, 94%, 65%);
+  border-radius: 3px;
+  color: hsl(337, 42%, 93%);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:500;
+  padding:10px 25px;
+
+}
+button.primary.Outline{
+  background-color:transparent;
+}
+.skills{
+  /* background-color: hsl(240, 33%, 16%); */
+  background-color:  hsl(60, 3%, 20%);
+
+  text-align: left;
+  padding:15px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+.skills ul{
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+}
+.skills ul li{
+  border:1px solid grey ;
+  display: inline-block;
+  border-radius: 2px;
+  padding:7px;
+  margin:2px 7px 0 7px;
+  font-size: 12px;
+}
